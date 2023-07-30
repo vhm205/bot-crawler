@@ -5,7 +5,7 @@ name: Python bot crawlers
 
 on:
   schedule:
-    - cron: '*/5 * * * *' # Every 30 minutes, between 07:00 AM and 09:59 PM (converted to UTC)
+    - cron: '30 0 * * *' # At 7h30 AM, every day
 
 jobs:
   build:
