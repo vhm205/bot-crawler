@@ -3,8 +3,7 @@ import os
 import requests
 import bot
 
-url_scraper = '{vnexpress_url}'.format(
-    vnexpress_url=os.environ['VNEXPRESS_URL_SCRAPING'])
+url_scraper = os.environ['VNEXPRESS_URL_SCRAPING']
 
 
 def crawl_stock():
